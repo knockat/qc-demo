@@ -1,0 +1,38 @@
+{
+	"alarmName": "设备告警新增",
+	"alarmType": 1,
+	"alarmLevel": 3,
+	"enable": "0",
+	"alarmContent": "内容是十四时说{name}{v}",
+	"startDate": "2021-12-10",
+	"endDate": "2021-12-17",
+	"startTime": "00:00:00",
+	"endTime": "00:00:00",
+	"triggerSingleCondition": {
+		"matchFields": [
+			{
+				"matchKey": "586356170712470",
+				"matchKeyDesc": "设备编号",
+				"matchField": "cpuUseRate",
+				"matchFieldDesc": "CPU使用率"
+			}
+		],
+		"symbol": ">=",
+		"value": "0.2",
+		"lowerParam": "",
+		"lowerParamLogic": "include",
+		"upperParam": "",
+		"upperParamLogic": "include",
+		"deadZone": "0",
+		"deadZoneType": "0"
+	},
+	"repeatFlag": "1",
+	"repeatInterval": 3600,
+	"resetType": "1",
+	"remark": "自动复归实施十四hi",
+	"triggerType": "0",
+	"manipulateType": "1",
+	"resetCondition": "0",
+	"timeFlag": "1",
+	"duration": 0
+}

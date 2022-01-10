@@ -1,0 +1,26 @@
+http:
+  connection:
+    timeout: 5000
+  read:
+    timeout: 5000
+  write:
+    timeout: 5000
+  maxIdleConnections: 30
+  keepAliveTime: 60000
+
+server:
+  port: 8080
+
+swagger:
+  show: true
+
+ctcc:
+  tokenUrl:
+
+  
+test:
+  media:
+    filepath: /home/ubuntu/lijh/test/media/pic.png
+    thumbnailFilepath: /home/ubuntu/lijh/test/media/thumbnail.png
+    
+   
